@@ -17,9 +17,14 @@
   --color-subtext: #FF8A71;
 }
 
+body {
+    font-family: var(--font-family);
+}
+
 header{
     background: radial-gradient(circle at 3% 25%,#002853 0,#040c18 100%);
-    height: 100vh;
+    height: 100%;
+    padding: 0 1.5rem;
 }
 
 .flex {
@@ -30,9 +35,78 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    margin: 0 1.5rem;
 }
 
+#home-photo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    padding-top: 2.5rem;
+}
+
+.description {
+    color: #81AFDD;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 1.2rem 0;
+}
+
+#people {
+    display: block;
+    margin: auto;
+}
+
+input {
+    background-color: #052D56;
+    outline: none;
+    border: none;
+    margin-right: -2px;
+    height: 3rem;
+    padding-left: 2.5rem;
+    width: 70%;
+}
+
+.input-btn {
+    border: none;
+    background-color: #FF4820;
+    color: #fff;
+    width: 28%;
+    height: 3rem;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #3D6184;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #3D6184;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #3D6184;
+  }
+
+.people-wrapper {
+    margin: 2rem 0 4rem;
+}
+.num-people {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
 
 
 
