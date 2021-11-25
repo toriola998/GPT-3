@@ -208,6 +208,38 @@ input {
     padding-top: 1rem;
 }
 
+.register {
+    width: 85%;
+    background: var(--gradient-bar);
+    height: auto;
+    margin: 0rem auto 6rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.register p, .register h4 {
+    color: #000;
+}
+
+.register h4  {
+    font-weight: 800;
+    margin: 0.5rem 0 2rem;
+}
+
+.register p{
+    font-size: 12px;
+    font-weight: 600;  
+}
+
+.register button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding:1rem 2rem;
+    margin: auto;
+    display: block;
+}
 
 
 
