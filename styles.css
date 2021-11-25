@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--font-family);
+    color: #fff;
 }
 
 header{
@@ -45,21 +46,28 @@ header{
 }
 
 h1 {
+    padding-top: 2.5rem;
+}
+
+h1, .possible {
     background: var(--gradient-text);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
-    padding-top: 2.5rem;
 }
 
 .description {
+    
+    margin: 1.2rem 0;
+}
+
+p {
     color: #81AFDD;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    margin: 1.2rem 0;
 }
 
 #people {
@@ -103,24 +111,56 @@ input {
 }
 
 .num-people {
-    color: #fff;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
 }
 
-.section {
+.section, .features {
     background-color: var(--color-bg);
     height: 100%;
-    display: flex;
 }
 
 .company-logo img {
     margin-right: 1.5rem ;
 }
 
-.company-logo {
-    display: flex;
+.hr-line {
+    width: 2.5rem;
+    height: 3px;
+    background: var(--gradient-bar);
+    margin-bottom: 5px;
+}
+
+.coloured {
+    background-color: var(--color-blog);
+    margin: 4rem 2rem 0;
+    padding: 2rem;
+}
+
+.coloured p {
+    margin: 1rem 0;
+}
+
+.possible-wrap {
+    margin: 5rem 0 2rem;
+}
+
+.possible{
+    font-size: 1.7rem;
+}
+
+.explore {
+    color: var(--color-subtext);
+    font-size: 16px;
+}
+
+.library {
+    margin-bottom: 2rem;
+}
+
+.library h5 {
+    font-size: 1.1rem;
 }
 
 
