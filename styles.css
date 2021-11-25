@@ -101,11 +101,26 @@ input {
 .people-wrapper {
     margin: 2rem 0 4rem;
 }
+
 .num-people {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
+}
+
+.section {
+    background-color: var(--color-bg);
+    height: 100%;
+    display: flex;
+}
+
+.company-logo img {
+    margin-right: 1.5rem ;
+}
+
+.company-logo {
+    display: flex;
 }
 
 
