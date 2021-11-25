@@ -163,6 +163,26 @@ input {
     font-size: 1.1rem;
 }
 
+.features {
+    padding: 0 2rem;
+}
+
+.future {
+    margin-bottom: 3rem;
+}
+
+.future .explore {
+    margin-top: 2rem;
+}
+
+.wrap div{
+    margin-right: 2rem;
+}
+
+.wrap div h5 {
+    font-size: 0.9rem;
+}
+
 
 
 
