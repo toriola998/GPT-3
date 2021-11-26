@@ -241,8 +241,22 @@ input {
     display: block;
 }
 
+.blog {
+    margin: 0 2rem;
+}
 
+.box {
+    background-color: var(--color-blog);
+}
 
+.box p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.box img {
+    width: 100%;
+}
 
 
 
