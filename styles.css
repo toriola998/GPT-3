@@ -247,11 +247,16 @@ input {
 
 .box {
     background-color: var(--color-blog);
-    min-height: 400px;
+    min-height: 340px;
+    margin-bottom: 2rem;
+}
+
+.one {
+    min-height: 500px;
 }
 
 .box h4 {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0 3rem;
 }
 
 .box p {
@@ -263,15 +268,54 @@ input {
     width: 100%;
 }
 
-.read {
-    position: relative;
-    top: 4rem;
-}
-
 .box>div {
     margin: 1rem;
 }
 
+footer {
+    background-color: var(--color-footer);
+    padding: 4rem 2rem;
+}
+
+footer button{
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    padding: 1rem 2rem;
+    margin: 4rem auto 7rem;
+    display: block;
+    background-color: inherit;
+}
+
+footer img {
+    height: 1.5rem;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer a, address {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+}
+
+footer h6 {
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.footer-inner {
+    margin-bottom: 2rem;
+}
+
+li {
+    padding: 4px 0;
+}
 
 
 
