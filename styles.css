@@ -241,9 +241,10 @@ input {
     color: #fff;
     border: none;
     border-radius: 50px;
-    padding:1rem 2rem;
     margin: auto;
     display: block;
+    height: 3rem;
+    width: 9rem;
 }
 
 .blog {
@@ -401,8 +402,102 @@ li {
     }
 }
 
+@media only screen and (min-width: 700px) {
+    header{
+        padding: 0 6rem 4rem;
+    }
 
+    header h1 {
+        font-size: 3.4rem;
+    }
 
+    header p, header button, .explore {
+        font-size: 16px;
+    }
+
+    .num-people, .coloured p {
+        font-size: 15px;
+    }
+
+    .coloured {
+        margin: 0rem 6rem ;
+    }
+
+    .what-is-gpt {
+        display: flex;
+    }
+
+    .coloured h4 {
+        font-size: 1.3rem;
+    }
+
+    .possible {
+        font-size: 2rem;
+    }
+
+    .features {
+        padding: 0 6rem;
+    }
+
+    .wrap div {
+        margin-right: 5rem ;
+    }
+
+    .wrap div h5 {
+        font-size: 1.1rem;
+    }
+
+    .features h1, .girl-image-section h1, .blog h1 {
+        font-size: 2.5rem;
+    }
+
+    .girl-image-section, footer{
+        padding: 6rem;
+    }
+
+    .feature-desc {
+        font-size: 15px;
+    }
+
+    .register {
+        width: 80%;
+        display: flex;
+    }
+
+    .request, .explore {
+        font-size: 17px;
+    }
+
+    .register button {
+        width: 15rem;
+    }
+    
+    .blog {
+        margin: 0 4rem 4rem;
+    }
+
+    .box {
+        height: 420px;
+    }
+
+    .box h4 {
+        font-size: 1.3rem;
+    }
+
+    footer h1 {
+        font-size: 2.7rem;
+    }
+
+    footer button {
+        font-size: 16px;
+    }
+
+    .footer-flex {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 
 
