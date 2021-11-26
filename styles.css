@@ -447,8 +447,12 @@ li {
         font-size: 1.1rem;
     }
 
+    .one {
+        height: 600px;
+    }
+
     .features h1, .girl-image-section h1, .blog h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .girl-image-section, footer{
@@ -474,6 +478,12 @@ li {
     
     .blog {
         margin: 0 4rem 4rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 30px;
     }
 
     .box {
