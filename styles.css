@@ -242,11 +242,16 @@ input {
 }
 
 .blog {
-    margin: 0 2rem;
+    margin: 0 2rem 4rem;
 }
 
 .box {
     background-color: var(--color-blog);
+    min-height: 400px;
+}
+
+.box h4 {
+    margin-top: 0.5rem;
 }
 
 .box p {
@@ -256,6 +261,15 @@ input {
 
 .box img {
     width: 100%;
+}
+
+.read {
+    position: relative;
+    top: 4rem;
+}
+
+.box>div {
+    margin: 1rem;
 }
 
 
