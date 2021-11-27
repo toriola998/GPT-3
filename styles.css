@@ -74,20 +74,11 @@ header{
   nav {
     overflow: hidden;
     height: 0;
-    /*position: relative;*/
   }
 
-  /*.nav-items {
-      list-style-type: none;
-      display: flex;
-  }*/
-
-  .nav-items>li>a {
+  .nav-items li a {
     text-decoration: none;
     color: #fff;
-    /*font-weight: 700;
-    font-size: 14px;
-    padding: 0 0.5rem;*/
   }
 
 #home-photo {
@@ -392,6 +383,13 @@ li {
         font-size: 15px;
     }
 
+    .show-links {
+        height: 400px;
+        width: 250px;
+        top: 4rem;
+        right: 4rem;
+      }
+    
     .coloured {
         margin: 0rem 4rem ;
     }
@@ -458,6 +456,10 @@ li {
         padding: 0 6rem 4rem;
     }
 
+    .nav-items li a {
+        font-size: 1.1rem;
+        }
+
     header h1 {
         font-size: 3.4rem;
     }
@@ -501,10 +503,6 @@ li {
 
     .wrap div h5 {
         font-size: 1.1rem;
-    }
-
-    .one {
-        height: 600px;
     }
 
     .features h1, .girl-image-section h1, .blog h1 {
@@ -570,6 +568,32 @@ li {
         padding: 0 2rem 4rem;
     }
 
+    nav {
+        overflow: visible;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .nav-items {
+        display: flex;
+        position: relative;
+        bottom: 3rem;
+        justify-content: space-around;
+    }
+
+    .nav-items >div {
+        display: flex;
+    }
+
+    .nav-items li {
+        padding: 0 10px;
+    }
+
+    #sign-up {
+        margin: unset;
+    }
     .hero-content {
         display: flex;
         height: auto;
