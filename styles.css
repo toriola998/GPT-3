@@ -425,6 +425,11 @@ li {
 
     .what-is-gpt {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .what-is-gpt p {
+        width: 66%;
     }
 
     .coloured h4 {
@@ -506,6 +511,162 @@ li {
         margin-top: 4rem;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    header{
+        padding: 0 2rem 4rem;
+    }
+
+    .hero-content {
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-content > div {
+        width: 53%;
+        margin-right: 4rem;
+    }
+
+    #home-photo {
+        width: 40%;
+        margin: unset;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .possible-wrap {
+        display: flex;
+        margin: 5rem 0;
+        justify-content: space-between;
+    }
+
+    .possible {
+        font-size: 2.2rem;
+        width: 60%;
+    }
+
+    .explore {
+        font-size: 19px !important;
+    }
+
+    .library-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .library{
+        width: 30%;
+    }
+
+    .library h5 {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .coloured h4 {
+        font-size: 1.5rem;
+    }
+
+    .coloured p {
+        font-size: 16px;
+    }
+
+    .features-library {
+        display: unset;
+    }
+
+    .features-library .library {
+        width: unset;
+    }
+
+    .features {
+        display: flex;
+        align-items: baseline;
+        padding: 6rem;
+    }
+
+.features p {
+    font-size: 15px;
+}
+
+    .features .future {
+        width: 84%;
+        margin-right: 4rem;
+    }
+
+    .features h1 {
+        font-size: 2rem;
+    }
+
+    .girl-image-section {
+        display: flex;
+        align-items: center;
+    }
+
+    #girl-photo {
+        width: 50%;
+        margin-right: 4rem;
+    }
+    
+    .feature-desc {
+        font-size: 16px;
+    }
+
+    .register {
+        padding: 3rem 1.5rem;
+        width: 85%;
+    }
+
+    .register button {
+        width: 12rem;
+        font-size: 15px;
+    }
+
+    .register p {
+        font-size: 14px;
+    }
+
+    .register h4 {
+        font-size: 1.7rem;
+    }
+    .blog h1 {
+        font-size: 2.8rem;
+    }
+
+    .box h4 {
+        font-size: 1.5rem;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    footer h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    footer button {
+        font-size: 18px;
+        padding: 1.5rem 2.5rem;
+    }
+
+    footer a, address {
+        font-size: 15px;
+    }
+
+    footer h6 {
+        font-size: 1.2rem;
+    }
+
+    footer img {
+        height: 2rem;
     }
 }
 
