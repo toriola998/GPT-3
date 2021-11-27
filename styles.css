@@ -670,5 +670,30 @@ li {
     }
 }
 
+@media only screen and (min-width: 1250px) {
+    .hero-content > div {
+        width: 40%;
+        margin-right: 6rem;
+    }
 
+    .description {
+        margin: 1.5rem 0;
+    }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+
+    .footer-flex{
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .footer-flex-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
