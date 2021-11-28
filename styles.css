@@ -48,7 +48,10 @@ header{
    border-radius: 5px;
    margin-top: 5px;
    width: 80px;
-   padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+   height: 2.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 .show-links {
@@ -304,10 +307,6 @@ input {
     margin-bottom: 2rem;
 }
 
-.one {
-    min-height: 500px;
-}
-
 .box h4 {
     margin: 0.5rem 0 3rem;
 }
@@ -541,7 +540,7 @@ li {
     }
 
     .box {
-        height: 420px;
+        min-height: 380px;
     }
 
     .box h4 {
@@ -578,9 +577,10 @@ li {
 
     .nav-items {
         display: flex;
-        position: relative;
-        bottom: 3rem;
         justify-content: space-around;
+        position: relative;
+        bottom: 3.3rem;
+        margin-left: 4rem;
     }
 
     .nav-items >div {
@@ -592,8 +592,12 @@ li {
     }
 
     #sign-up {
-        margin: unset;
+        margin: 0 0 0 1rem;
+        width: 85px;
+        position: relative;
+        bottom: 0.5rem;
     }
+
     .hero-content {
         display: flex;
         height: auto;
@@ -751,6 +755,11 @@ li {
         margin-right: 6rem;
     }
 
+    #logo {
+        position: absolute;
+        left: 7rem;
+    }
+
     .description {
         margin: 1.5rem 0;
     }
@@ -759,8 +768,16 @@ li {
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 30px;
+        justify-content: center;
     }
 
+    .box {
+        width: 300px;
+    }
+
+    .blog h1 {
+        text-align: center;
+    }
     .footer-flex{
         width: 70%;
         justify-content: space-around;
