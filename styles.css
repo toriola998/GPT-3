@@ -187,7 +187,7 @@ input {
 
 .coloured {
     background-color: var(--color-blog);
-    margin: 0rem 2rem ;
+    margin: 0rem 2rem 4rem;
     padding: 2rem;
 }
 
@@ -390,7 +390,7 @@ li {
       }
     
     .coloured {
-        margin: 0rem 4rem ;
+        margin: 0rem 4rem 4rem;
     }
    
     .coloured h4 {
@@ -472,7 +472,7 @@ li {
     }
 
     .coloured {
-        margin: 0rem 6rem ;
+        margin: 0rem 6rem 5rem;
     }
 
     .what-is-gpt {
