@@ -33,6 +33,10 @@ header{
     padding: 0 1.5rem 4rem;
 }
 
+.hero-content{
+    margin-top: 4rem;
+}
+
 .flex {
     display: flex;
 }
@@ -91,10 +95,6 @@ header{
     margin: auto;
 }
 
-h1 {
-    padding-top: 2.5rem;
-}
-
 h1, .possible {
     background: var(--gradient-text);
     -webkit-background-clip: text;
@@ -105,7 +105,7 @@ h1, .possible {
 }
 
 .description {
-    margin: 1.2rem 0;
+    margin: 1.5rem 0;
 }
 
 p {
@@ -386,7 +386,7 @@ li {
         height: 400px;
         width: 250px;
         top: 4rem;
-        right: 4rem;
+        right: 6rem;
       }
     
     .coloured {
@@ -758,10 +758,6 @@ li {
     #logo {
         position: absolute;
         left: 7rem;
-    }
-
-    .description {
-        margin: 1.5rem 0;
     }
 
     .grid-container {
