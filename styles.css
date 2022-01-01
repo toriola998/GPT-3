@@ -747,6 +747,10 @@ li {
     footer img {
         height: 2rem;
     }
+
+    header>div{
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -783,5 +787,19 @@ li {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    section,
+    header>div,
+    .coloured>div,
+    footer>div {
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    .blog {
+        margin: 0 auto 4rem;
     }
 }
